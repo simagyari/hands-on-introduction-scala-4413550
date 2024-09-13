@@ -2,3 +2,52 @@
 node_modules
 .tmp
 npm-debug.log
+
+*.class
+.cache-main
+.scala_dependencies
+
+# scala-cli, bloop, metals
+.bsp/
+.bloop/
+.metals/
+.scala-build/
+project/metals.sbt
+
+# vs code
+.vscode/
+
+# scala 3
+.tasty
+
+# sbt
+project/project/
+project/target/
+target/
+
+# eclipse
+build/
+.classpath
+.project
+.settings
+.worksheet
+bin/
+.cache
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache-main
+
+# general
+*.class
